@@ -1,0 +1,102 @@
+.become {
+    background-image: url("../img/become-background.png");
+    height: 420px;
+    width: 1600px;
+}
+.become-block {
+    height: 420px;
+    margin: 0 auto;
+    width: 1032px;
+}
+.become-block-photo {
+    background-repeat: no-repeat;
+    height: 370px;
+    margin-top: 30px;
+    width: 500px;
+}
+.become-block-photo:nth-child(1) {
+    background-image: url("../img/become-1.png");
+    float: left;
+}
+.become-block-photo:nth-child(2) {
+    background-image: url("../img/become-2.png");
+    float: right;
+}
+.opacity-block-1 {
+    background-color: #ffffff;
+    height: 218px;
+    left: 215px; top: -314px;
+    opacity: .85;
+    position: relative;
+    width: 470px;
+}
+.opacity-block-1::before {
+    border: 40px solid transparent;
+    border-right: 22px solid #ffffff;
+    content: '';
+    float: left;
+    left: -60px; top: 65px;
+    position: relative;
+}
+.opacity-block-2 {
+    background-color: #ffffff;
+    height: 218px;
+    left: 920px; top: -534px;
+    opacity: .85;
+    position: relative;
+    width: 470px;
+}
+.opacity-block-2::before {
+    border: 40px solid transparent;
+    border-left: 22px solid #ffffff;
+    content: '';
+    float: left;
+    left: 468px; top: 65px;
+    position: relative;
+}
+.become p {
+    display: block;
+    text-align: center;
+    padding: 30px 0 0 90px;
+    width: 300px;
+}
+.become button {
+    -o-background: linear-gradient(to top, #f37221, #faa41a);
+    -ms-background: linear-gradient(to top, #f37221, #faa41a);
+    -moz-background: linear-gradient(to top, #f37221, #faa41a);
+    -webkit-background: linear-gradient(to top, #f37221, #faa41a);
+    background: linear-gradient(to top, #f37221, #faa41a);
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    font-family: 'Myriad Pro Regular';
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.become-btn-1 {
+    height: 40px;
+    left: 324px; top: -620px;
+    position: relative;
+    width: 248px;
+}
+.become-btn-2 {
+    height: 50px;
+    left: 780px; top: -620px;
+    position: relative;
+    width: 257px;
+}
+.opacity-head {
+    font-family: 'PT Serif Regular';
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.opacity-gray {
+    color: #5b5e5e;
+}
+.become-txt {
+    display: block;
+    font-family: 'Myriad Pro Regular';
+    font-size: 18px;
+    padding-top: 10px;
+}

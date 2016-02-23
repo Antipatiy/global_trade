@@ -1,0 +1,17 @@
+@import url(default.css);
+@import url(header.css);
+@import url(photo.css);
+@import url(become.css);
+@import url(goals.css);
+@import url(contact.css);
+@import url(request.css);
+@import url(footer.css);
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('../fonts/MyriadPro-Regular.otf');
+}
+@font-face {
+    font-family: 'PT Serif Regular';
+    src: url('../fonts/PT_Serif_Regular.ttf');
+}

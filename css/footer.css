@@ -1,0 +1,106 @@
+footer {
+    background-color: #5b5e5e;
+    height: 218px;
+    width: 1600px;
+}
+.footer-logo {
+    float: left;
+    margin: 66px 0 0 50px;
+}
+.footer-logo p {
+    color: #adafaf;
+    font-family: 'Myriad Pro Regular';
+    font-size: 14px;
+    padding-top: 12px;
+}
+.footer-nav {
+    float: left;
+    margin: 100px 10px 0 216px;
+    position: relative;
+    z-index: 10;
+}
+.footer-nav>li {
+    display: inline-block;
+}
+.footer-nav a {
+    font-family: 'Myriad Pro Regular';
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+}
+.footer-nav li:last-child {
+    text-transform: uppercase;
+}
+.footer-nav ul a:hover {
+    color: #ffffff;
+}
+footer .btn-footer:hover {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    color: #adafaf;
+    height: 40px;
+    width: 145px;
+}
+.social {
+    margin: 62px 50px 0 0;
+    float: right;
+}
+.social hr {
+    color: #848686;
+    height: 1px;
+    width: 300px;
+}
+.social p {
+    color: #adaeae;
+    font-family: 'Myriad Pro Regular';
+}
+.social p a {
+    color: #ffffff;
+}
+.social p a:hover {
+    color: #f58220;
+}
+.social p ~ p {
+    float: left;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+/* Sprites */
+.social-1 div {
+    background-image: url("../img/facebook-sprite.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 35px;
+    margin-right: 22px;
+    width: 35px;
+}
+.social-1 div:hover {
+    background-position: 0 -36px;
+}
+.social-2 div {
+    background-image: url("../img/twitter-sprite.png");
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 22px;
+    height: 35px;
+    width: 35px;
+}
+.social-2 div:hover {
+    background-position: 0 -36px;
+}
+.social-3 div {
+    background-image: url("../img/instagram-sprite.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 35px;
+    width: 35px;
+}
+.social-3 div:hover {
+    background-position: 0 -36px;
+}
+.social-knobs {
+    left: 50px; top: 5px;
+    position: relative;
+}

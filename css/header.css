@@ -1,0 +1,48 @@
+
+.wrapper {
+    margin: 0 auto;
+    width: 1600px;
+}
+header {
+    background-color: #ffffff;
+    height: 100px;
+    width: 1600px;
+}
+header img {
+    float: left;
+    margin: 20px 0 0 50px;
+}
+ul {
+    float: right;
+    margin: 40px 25px 0 0;
+}
+ul>li {
+    display: inline-block;
+}
+ul a {
+    font-family: 'Myriad Pro Regular';
+    font-size: 18px;
+    color: #000000;
+    padding: 10px 24px 10px 24px;
+    text-decoration: none;
+}
+ul a:hover {
+    color: #f58220;
+}
+.btn:hover {
+    -o-background: linear-gradient(to top, #f37221, #faa41a);
+    -ms-background: linear-gradient(to top, #f37221, #faa41a);
+    -moz-background: linear-gradient(to top, #f37221, #faa41a);
+    -webkit-background: linear-gradient(to top, #f37221, #faa41a);
+    background: linear-gradient(to top, #f37221, #faa41a);
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    height: 40px;
+    width: 145px;
+}
+header span {
+    font-size: 14px;
+    position: relative;
+    top: -2px;
+}
